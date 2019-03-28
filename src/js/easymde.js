@@ -11,7 +11,7 @@ require('codemirror/addon/selection/mark-selection.js');
 require('codemirror/addon/search/searchcursor.js');
 require('codemirror/mode/gfm/gfm.js');
 require('codemirror/mode/xml/xml.js');
-var CodeMirrorSpellChecker = require('codemirror-spell-checker');
+var CodeMirrorSpellChecker = require('easymde/node_modules/codemirror-spell-checker');
 var marked = require('marked');
 
 
