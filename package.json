@@ -43,9 +43,5 @@
     "repository": {
         "type": "git",
         "url": "http://github.com/Akirami/easymde-with-custom-dict"
-    },
-    "scripts": {
-        "prepare": "gulp",
-        "test:types": "tsc --project types/tsconfig.json"
     }
 }
