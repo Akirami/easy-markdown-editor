@@ -23,7 +23,7 @@
     },
     "dependencies": {
         "codemirror": "^5.45.0",
-        "codemirror-spell-checker": "1.1.2",
+        "codemirror-spell-checker": "https://github.com/Akirami/codemirror-spell-checker",
         "marked": "^0.6.1"
     },
     "devDependencies": {
