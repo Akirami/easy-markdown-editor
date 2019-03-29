@@ -1585,8 +1585,14 @@ EasyMDE.prototype.render = function (el) {
         backdrop.gitHubSpice = false;
 
         CodeMirrorSpellChecker({
-            codeMirrorInstance: CodeMirror,
-        });
+			codeMirrorInstance: CodeMirror,
+			customDict: {
+				dic: options.customDict.dic,
+				aff: options.customDict.aff
+			},
+			customWords: options.customDict.customWords ? options.customDict.customWords: [""],
+			ignoreCodeBlocks: options.customDict.ignoreCodeBlocks
+		});
     } else {
         mode = options.parsingConfig;
         mode.name = 'gfm';
